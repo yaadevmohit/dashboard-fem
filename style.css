@@ -124,7 +124,7 @@ header {
     width: 1rem;
     right: 0.1rem;
     bottom: 0.1rem;
-    background-color: white;
+    background-color: var(--clr-bg);
     border-radius: 50%;
     transition: 0.4s;
   }
