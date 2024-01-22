@@ -143,6 +143,9 @@ header {
 
 /* main */
 
+section {
+    margin-block-end: 3rem;
+}
 .followers-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -159,6 +162,7 @@ header {
     border-radius: 0.25rem;
     border-top: solid 4px;
 }
+
 
 .follower-container > * {
     margin-block: 0.7rem;
@@ -249,6 +253,10 @@ header {
     width: 1rem;
     margin-block-end: 2rem;
     margin-inline: auto;
+}
+
+.followers-stat > p {
+    font-size: 2rem;
 }
 
 /* Switching themes */
